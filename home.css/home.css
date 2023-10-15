@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(2, 2, 57);
+    color: white;
+    /* position: absolute; */
+
+}
+nav{
+    position: fixed;
+    display: flex;
+    overflow: hidden;
+   
+    
+    justify-content: space-around;
+    align-items: center;
+    height: 56px;
+    width: 100%;
+    background-color: rgb(1, 1, 23);
+    /* overflow: hidden; */
+}
+main{
+    
+    padding-top: 27px;
+}
+nav ul{
+    display: flex;
+   justify-content: space-between;
+}
+li{
+    list-style: none;
+    margin: 23px;
+}
+.firstSection{
+  
+    display: flex;
+    justify-content: space-around;
+    margin: 26px;
+    align-items: center;
+    padding: 64px;
+    
+}
+.leftSection{
+    /* margin-top: 46px; */
+    /* background-color: cadetblue; */
+    font-size: 2rem;
+    width: 30%;
+}
+.rightSection{
+    position: relative;
+    /* background-color: cadetblue; */
+  
+    width: 30%;
+    
+}
+.rightSection img{
+        
+        width: 70%;
+}
+.purple{
+    color:rgb(141, 71, 208) ;
+}
+a:hover{
+    color:rgb(54, 174, 48)  ;
+    font-size:large;
+}
+.box:hover{
+  background-color:  rgb(1, 1, 23);
+  color:rgb(54, 174, 48)  ;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    color: antiquewhite;
+}
+#element{
+    color:rgb(141, 71, 208) ;
+}
+.secondSection{
+    /* display: flex; */
+/* justify-content: center; */
+    font-size: 23px;
+    
+    max-width: 80%;
+    height:60% ;
+   
+    margin-top: 20px;
+    margin-left: 118px;
+    /* background-image: url("image\ 1.png"); */
+   
+}
+hr{margin-bottom: 10px;
+    margin-top:10px;
+    height: 1px;
+    width: 90%;
+    
+  background-color:rgb(54, 174, 48) ;
+}
+.box{
+    height: 2cm;
+    background-color:rgb(2, 2, 57);
+    margin-top: 10px;
+   
+    width: 90%;
+    border-radius: 23px;
+    padding: 7px;
+}
+
+.box1{
+    display: flex;
+    justify-content: space-between;
+
+}
+.thirdSection{
+    margin-left: 118px;
+    padding: 10px;
+    margin-bottom:40px ;
+
+}
+.thirdSection .box1 .vertical{
+    height: 80px;
+    width: 1px;
+    background-color: white;
+}
+footer{
+    background-color: rgb(1, 1, 23);
+    height: 233px;
+    display: flex;
+    justify-content: space-evenly;
+}
